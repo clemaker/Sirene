@@ -1,3 +1,9 @@
-<p>
-  home works!
-</p>
+<ion-toolbar >
+  <ion-title>Sirene</ion-title>
+  <ion-button type="submit" (click)="getTokenTest()" color="primary">Get a bearer Token</ion-button>
+  <div *ngIf="search === true">
+    <ion-button type="submit" (click)="getInformations()" color="primary">Get Informations about Synolia</ion-button>
+    <ion-button type="submit" (click)="getActiveDetails()" color="primary">Get Informations about active companies</ion-button>
+  </div>
+</ion-toolbar>
+<ion-app id="home"></ion-app>

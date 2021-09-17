@@ -1,5 +1,7 @@
 {
-  "name": "fairy-tail-ionic",
-  "integrations": {},
+  "name": "sirene-ionic",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
